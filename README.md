@@ -1,5 +1,7 @@
 # Introduction to Express - Lab
 
+(THIS README HAS BEEN COPIED FROM ORIGINAL GIT REPO.)
+
 Those are exercises to do by yourself during the session, with the instructor available for help. 
 
 (actually done after lesson)
