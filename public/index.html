@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the lab for my introduction to Express!</h1>
+        <h2>There are several options for you to choose from so let's get started!</h2>
+    </header>
+
+    <main>
+        <section>
+            <h3>Birthday Checker</h3>
+            <form action="/birthday">
+                <input type="text" name="name" placeholder="your name goes here">
+                <input type="date" name="birthday" placeholder="your birthday please">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section>
+            <h3>Calculator</h3>
+            <form action="/calculator">
+                <input type="number" name="firstNumber" placeholder="give first number">
+                <select name="operator">
+                    <option value="add">+</option>
+                    <option value="sub">-</option>
+                    <option value="multi">*</option>
+                    <option value="div">/</option>
+                    <option value="" selected>--please pick the type of sum to do--</option>
+
+                </select>
+                <input type="number" name="secondNumber" placeholder="give second number">
+                <input type="submit" value="Calculate">
+
+            </form>
+        </section>
+
+        <section>
+            <h3>Calculator API</h3>
+            <form action="/compute" method="POST">
+                <input type="number" name="firstNumber" placeholder="give first number">
+                <select name="operator">
+                    <option value="add">+</option>
+                    <option value="sub">-</option>
+                    <option value="multi">*</option>
+                    <option value="div">/</option>
+                    <option value="" selected>--please pick the type of sum to do--</option>
+
+                </select>
+                <input type="number" name="secondNumber" placeholder="give second number">
+                <input type="submit" value="Compute">
+
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
